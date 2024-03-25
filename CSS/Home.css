@@ -1,0 +1,92 @@
+.img{
+    width: 100%;
+    height: 530px;
+    margin: 20px 0 30px 0;
+}
+.home_img{
+    width: 100%;
+    height: 100%;
+}
+.PIZZAS{
+    width: 55%;
+    margin: auto;
+    display: block;
+}
+.show {
+    width: calc(90%/4);
+    float: left;
+    text-align: center;
+    margin-left: 2%;
+    margin-bottom: 3%;
+    padding-top:5px ;
+    line-height: 25px;
+    overflow: hidden;
+    font-size: 13px;
+}
+.menu_img{
+    height: 120px;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.8s ease;
+}
+.menu_img:hover{
+    transform: scale(1.2);
+}
+.newsletter{
+    margin: auto;
+    height: fit-content;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0;
+    background-color: #1d2326;
+    width: fit-content;
+    padding: 0 0 1.1PX .5px;
+    text-align: center;
+    
+}
+input[type="text"]{
+    height: 30PX;
+    width: 300PX;
+    outline: 0;
+    border: 0;
+    background-color: #121618;
+}
+input[type="submit"]{
+    background-color: #1d2326;
+    outline: 0;
+    border: 0;
+    width: 70px;
+    height: 30px;
+    color: #dce4e8;
+    font-size: 15px;
+    font-weight: lighter;
+    letter-spacing: 1.5px;
+}
+input[type="submit"]:hover{
+    color: #12162a;
+    background-color: #ffc851;
+}
+h4{
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-weight: lighter;
+}
+span{
+    display: block;
+    font-weight: lighter;
+    font-family: sans-serif;
+    letter-spacing: 4px;
+    margin: 10px;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+hr{
+    width: 90%;
+    height: 0.5px;
+    background-color: #dce4e8;
+    border-color: #dce4e8;
+}
